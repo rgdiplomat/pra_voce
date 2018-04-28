@@ -1,6 +1,20 @@
 $brandGreen: #62c7b2;
 $brandGrey: #333;
 
+
+/* TOP LOGO HOVER GREYSCALE */
+
+logoTop {
+  -webkit-filter: grayscale(100%);
+           filter: grayscale(100%);
+}
+.logoTop:hover {
+
+  -webkit-filter: grayscale(100%);
+           filter: grayscale(100%);
+
+ }
+
 /* FORM SECTION  */
 #formSection {
   min-height: 60%;
@@ -9,7 +23,8 @@ $brandGrey: #333;
 
 /* FOOTER SECTION  */
 #footerSection {
-background-color: rgba(255, 255, 255, 0.7);
+background-color: #fff;
+border-top: solid 1px #f4f4f4;
 }
 
 
@@ -27,9 +42,11 @@ background-color: rgba(255, 255, 255, 0.7);
 }
 
 
+
 /* TOPBAR STYLE */
 #topBarSection {
 /*  background-color: #f4f4f4; */
+border-bottom: solid 1px #f4f4f4;
 }
 
 /* SHOPPING CART DROPDOWN STYLE */
