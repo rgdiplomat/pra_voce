@@ -1,0 +1,81 @@
+$brandGreen: #62c7b2;
+$brandGrey: #333;
+
+/* FORM SECTION  */
+#formSection {
+  min-height: 60%;
+  height: auto;
+}
+
+/* FOOTER SECTION  */
+#footerSection {
+background-color: rgba(255, 255, 255, 0.7);
+}
+
+
+/* HOME IMG  */
+#homeImg {
+  max-width: 100%;
+  height: auto;
+}
+
+/* LOGO IMG  */
+
+#rightlogoImg img {
+  width: 200px;
+  height: auto;
+}
+
+
+/* TOPBAR STYLE */
+#topBarSection {
+/*  background-color: #f4f4f4; */
+}
+
+/* SHOPPING CART DROPDOWN STYLE */
+#shoppingCart {
+  border-bottom: 1px solid #ddd;
+}
+
+
+/* ICON HOVER COLOR */
+svg #shopIconHoverColor { fill: $brandGreen; }
+svg:hover #shopIconHoverColor { fill: #000; }
+
+svg #searchIconHoverColor { fill: $brandGrey; }
+svg:hover #searchIconHoverColor { fill: #000; }
+
+svg:hover #socialIconHoverColor { fill: $brandGreen; }
+
+
+/* LINK HOVER COLOR */
+
+a {
+  color: $brandGrey;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects; }
+  a:hover {
+    color: #000;
+    text-decoration: underline; }
+
+
+    .btn-link {
+      font-weight: normal;
+      color: $brandGrey;
+      border-radius: 0; }
+      .btn-link, .btn-link:active, .btn-link.active, .btn-link:disabled {
+        background-color: transparent; }
+        .btn-link, .btn-link:focus, .btn-link:active {
+          border-color: transparent;
+          box-shadow: none; }
+          .btn-link:hover {
+            border-color: transparent; }
+            .btn-link:focus, .btn-link:hover {
+              color: #000;
+              text-decoration: underline;
+              background-color: transparent; }
+              .btn-link:disabled {
+                color: #868e96; }
+                .btn-link:disabled:focus, .btn-link:disabled:hover {
+                  text-decoration: none; }
