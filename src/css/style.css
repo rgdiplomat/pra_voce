@@ -1,13 +1,13 @@
 /* MAIN SECTION  */
 #mainHome {
-  height: 90vh; }
+  height: 85vh; }
 
 #mainImg {
   max-width: 100%;
   height: auto; }
 
 #topbarHome {
-  height: 10vh; }
+  height: 14vh; }
 
 #rightLogo {
   height: 80vh; }
@@ -16,7 +16,34 @@
     height: auto; }
 
 #socialHome {
-  height: 10vh; }
+  height: 5vh; }
+
+/* LOGO TOP  */
+#logoTop img {
+  width: 100%;
+  height: auto; }
+
+#brandBorder {
+  border-bottom: 4px solid #62c7b2; }
+
+/* ICON HOVER COLOR */
+svg #shopIconHoverColor {
+  fill: #62c7b2; }
+
+svg:hover #shopIconHoverColor {
+  fill: #000; }
+
+svg #searchIconHoverColor {
+  fill: #333; }
+
+svg:hover #searchIconHoverColor {
+  fill: #BDBDBD; }
+
+svg #socialIconHoverColor {
+  fill: #BDBDBD; }
+
+svg:hover #socialIconHoverColor {
+  fill: #62c7b2; }
 
 /* TOP LOGO HOVER GREYSCALE */
 /* FORM SECTION  */
@@ -43,28 +70,14 @@
 #shoppingCart {
   border-bottom: 1px solid #ddd; }
 
-/* ICON HOVER COLOR */
-svg #shopIconHoverColor {
-  fill: #62c7b2; }
-
-svg:hover #shopIconHoverColor {
-  fill: #000; }
-
-svg #searchIconHoverColor {
-  fill: #333; }
-
-svg:hover #searchIconHoverColor {
-  fill: #000; }
-
-svg:hover #socialIconHoverColor {
-  fill: #62c7b2; }
-
 /* LINK HOVER COLOR */
 a {
   color: #333;
   text-decoration: none;
   background-color: transparent;
-  -webkit-text-decoration-skip: objects; }
+  -webkit-text-decoration-skip: objects;
+  font-weight: bold;
+  text-decoration: underline; }
 
 a:hover {
   color: #000;

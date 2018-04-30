@@ -1,9 +1,10 @@
 $brandGreen: #62c7b2;
 $brandGrey: #333;
+$brandSecondaryGrey: #BDBDBD;
 
 /* MAIN SECTION  */
 #mainHome {
-height: 90vh; }
+height: 85vh; }
 
 
 #mainImg {
@@ -13,7 +14,7 @@ height: 90vh; }
 }
 
 #topbarHome {
-height: 10vh;
+height: 14vh;
 }
 
 #rightLogo {
@@ -25,11 +26,30 @@ height: 80vh;
 }
 
 #socialHome {
-height: 10vh;
+height: 5vh;
 }
 
 
+/* LOGO TOP  */
 
+#logoTop img {
+  width: 100%;
+  height: auto;
+}
+
+#brandBorder {
+  border-bottom: 4px solid $brandGreen;
+}
+
+/* ICON HOVER COLOR */
+svg #shopIconHoverColor { fill: $brandGreen; }
+svg:hover #shopIconHoverColor { fill: #000; }
+
+svg #searchIconHoverColor { fill: $brandGrey; }
+svg:hover #searchIconHoverColor { fill: $brandSecondaryGrey; }
+
+svg #socialIconHoverColor { fill: $brandSecondaryGrey; }
+svg:hover #socialIconHoverColor { fill: $brandGreen; }
 
 
 
@@ -85,14 +105,6 @@ border-bottom: solid 1px #f4f4f4;
 }
 
 
-/* ICON HOVER COLOR */
-svg #shopIconHoverColor { fill: $brandGreen; }
-svg:hover #shopIconHoverColor { fill: #000; }
-
-svg #searchIconHoverColor { fill: $brandGrey; }
-svg:hover #searchIconHoverColor { fill: #000; }
-
-svg:hover #socialIconHoverColor { fill: $brandGreen; }
 
 
 /* LINK HOVER COLOR */
@@ -101,7 +113,10 @@ a {
   color: $brandGrey;
   text-decoration: none;
   background-color: transparent;
-  -webkit-text-decoration-skip: objects; }
+  -webkit-text-decoration-skip: objects;
+font-weight: bold;
+text-decoration: underline;
+}
   a:hover {
     color: #000;
     text-decoration: underline; }
