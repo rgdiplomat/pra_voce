@@ -1,12 +1,24 @@
+/* MAIN SECTION  */
+#mainHome {
+  height: 90vh; }
+
+#mainImg {
+  max-width: 100%;
+  height: auto; }
+
+#topbarHome {
+  height: 10vh; }
+
+#rightLogo {
+  height: 80vh; }
+  #rightLogo #rightLogo img {
+    width: 200px;
+    height: auto; }
+
+#socialHome {
+  height: 10vh; }
+
 /* TOP LOGO HOVER GREYSCALE */
-logoTop {
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%); }
-
-.logoTop:hover {
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%); }
-
 /* FORM SECTION  */
 #formSection {
   min-height: 60%;
@@ -16,11 +28,6 @@ logoTop {
 #footerSection {
   background-color: #fff;
   border-top: solid 1px #f4f4f4; }
-
-/* HOME IMG  */
-#homeImg {
-  max-width: 100%;
-  height: auto; }
 
 /* LOGO IMG  */
 #rightlogoImg img {

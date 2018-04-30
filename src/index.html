@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,143 +9,83 @@
   <link rel="stylesheet" href="/css/bootstrap.css">
   <link rel="stylesheet" href="/css/style.css">
 </head>
-<body data-gr-c-s-loaded="true">
+<body>
 
-
-  <!--TOP BAR MODULE -->
-  <container>
-    <nav id="topBarSection" class="navbar justify-content-between  ml-auto d-block py-4">
-      <div class="btn-toolbar mb-2 mb-md-0">
-        <div class=" col-2 mr-auto ml-5">
-
-
-          <!-- LOGO TOP MODULE -->
-          <a href="#" class="logoTop"><img src="/images/horizontal_logo.png" width="100" alt="logo"></a>
-        </div>
-        <div class="row ml-auto d-flex">
-
-
-          <!-- CURRENCY MODULE -->
-          <div class="col mr-5 ">
-            <div class="mr-5 ">
-              <div class="dropdown">
-                <button class="btn btn-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  GBP
-                </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <a class="dropdown-item" href="#">USD</a>
-                  <a class="dropdown-item" href="#">EUR</a>
-                  <a class="dropdown-item" href="#">YEN</a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-          <!-- SEARCH MODULE -->
-          
-          <div class="mr-1 pt-2 col">
-            <a href="#">  <svg xmlns="http://www.w3.org/2000/svg"  width="24" height="24" viewBox="0 0 24 24"><path id="searchIconHoverColor"  d="M23.809 21.646l-6.205-6.205c1.167-1.605 1.857-3.579 1.857-5.711 0-5.365-4.365-9.73-9.731-9.73-5.365 0-9.73 4.365-9.73 9.73 0 5.366 4.365 9.73 9.73 9.73 2.034 0 3.923-.627 5.487-1.698l6.238 6.238 2.354-2.354zm-20.955-11.916c0-3.792 3.085-6.877 6.877-6.877s6.877 3.085 6.877 6.877-3.085 6.877-6.877 6.877c-3.793 0-6.877-3.085-6.877-6.877z"/></svg></a>
-          </div>
-
-
-          <!-- SHOPPING CART MODULE -->
-          <div class="mr-2 pt-2 col">
-            <a href="#"  data-toggle="collapse" data-target="#shoppingCart" aria-expanded="false" aria-controls="shoppingCart">
-              <svg xmlns="http://www.w3.org/2000/svg"  width="24" height="24" viewBox="0 0 24 24"><path  id="shopIconHoverColor"  d="M6 23.73l-3-2.122v-14.2l3 1.359v14.963zm2-14.855v15.125l13-1.954v-15.046l-13 1.875zm5.963-7.875c-2.097 0-3.958 2.005-3.962 4.266l-.001 1.683c0 .305.273.54.575.494.244-.037.425-.247.425-.494v-1.681c.003-1.71 1.416-3.268 2.963-3.268.537 0 1.016.195 1.384.564.422.423.654 1.035.653 1.727v1.747c0 .305.273.54.575.494.243-.037.423-.246.423-.492l.002-1.749c.002-1.904-1.32-3.291-3.037-3.291zm-6.39 5.995c.245-.037.427-.247.427-.495v-2.232c.002-1.71 1.416-3.268 2.963-3.268l.162.015c.366-.283.765-.513 1.188-.683-.405-.207-.858-.332-1.35-.332-2.096 0-3.958 2.005-3.962 4.266v2.235c0 .306.272.538.572.494z"/>
-              </svg>
-            </a>
-          </div>
-        </div>
+<!-- TOPBAR -->
+  <div class="container-fluid">
+    <div class="row" id="topbarHome">
+      <!-- TOP LOGO MODULE -->
+      <div class="border col-3  col-md-3 d-xs-block d-md-none d-flex align-items-center">
+      <p>LOGO</p>
       </div>
-    </nav>
-  </container>
+      <!-- MENU MODULE -->
+      <div class="border col-3 col-md-6 d-flex align-items-center">
+        <p>MENU</p>
+      </div>
+      <!-- CURRENCY MODULE -->
+      <div class="border col-3 col-md-1 ml-auto d-flex  align-items-center justify-content-end">
+        <p>CURRENCY</p>
+      </div>
+      <!-- SEARCH / CART MODULE -->
+      <!-- SEARCH MODULE -->
+
+      <div class="d-flex align-items-center justify-content-end col-3 col-md-2 border ">
+        <div class="mr-3">
 
 
-  <!--SHOPPING CART DROPDOWN -->
-  <container>
-    <div class="row">
-      <div class="col ">
-        <div class="collapse " id="shoppingCart">
-          <div class="card card-body px-5 py-5 text-center">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores dolorum temporibus, fuga dignissimos qui id, doloremque tenetur! Mollitia cumque magnam ab, consequatur sunt ducimus rem!
-          </div>
+        <a href="#">  <svg xmlns="http://www.w3.org/2000/svg"  width="24" height="24" viewBox="0 0 24 24"><path id="searchIconHoverColor"  d="M23.809 21.646l-6.205-6.205c1.167-1.605 1.857-3.579 1.857-5.711 0-5.365-4.365-9.73-9.731-9.73-5.365 0-9.73 4.365-9.73 9.73 0 5.366 4.365 9.73 9.73 9.73 2.034 0 3.923-.627 5.487-1.698l6.238 6.238 2.354-2.354zm-20.955-11.916c0-3.792 3.085-6.877 6.877-6.877s6.877 3.085 6.877 6.877-3.085 6.877-6.877 6.877c-3.793 0-6.877-3.085-6.877-6.877z"/></svg></a>
+</div>
+
+
+      <!-- SHOPPING CART MODULE -->
+      <div class="">
+        <a href="#"  data-toggle="collapse" data-target="#shoppingCart" aria-expanded="false" aria-controls="shoppingCart">
+          <svg xmlns="http://www.w3.org/2000/svg"  width="24" height="24" viewBox="0 0 24 24"><path  id="shopIconHoverColor"  d="M6 23.73l-3-2.122v-14.2l3 1.359v14.963zm2-14.855v15.125l13-1.954v-15.046l-13 1.875zm5.963-7.875c-2.097 0-3.958 2.005-3.962 4.266l-.001 1.683c0 .305.273.54.575.494.244-.037.425-.247.425-.494v-1.681c.003-1.71 1.416-3.268 2.963-3.268.537 0 1.016.195 1.384.564.422.423.654 1.035.653 1.727v1.747c0 .305.273.54.575.494.243-.037.423-.246.423-.492l.002-1.749c.002-1.904-1.32-3.291-3.037-3.291zm-6.39 5.995c.245-.037.427-.247.427-.495v-2.232c.002-1.71 1.416-3.268 2.963-3.268l.162.015c.366-.283.765-.513 1.188-.683-.405-.207-.858-.332-1.35-.332-2.096 0-3.958 2.005-3.962 4.266v2.235c0 .306.272.538.572.494z"/>
+          </svg>
+        </a>
         </div>
       </div>
     </div>
-  </container>
+  </div>
 
 
-  <!-- NAVBAR MODULE -->
-  <container>
-    <div class="">
-      <div class="row">
-        <nav id="navMenuSection" class="flex-navbar flex-md-nowrap p-0 shadow col-md-2  col-sm-12 d-block sidebar text-center pt-5">
-          <div class="sidebar-sticky ">
-            <ul class="nav flex-column">
-              <li class="nav-item"><a class="nav-link active" href="#">Shop</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">Press</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">Lookbook</a></li>
-            </ul>
-          </div>
-        </nav>
+<!-- MAIN -->
+  <div class="container-fluid" >
+  <div class="row" id="mainHome">
+<!-- FRONTPAGE IMAGE MODULE -->
+  <div class="col-lg-8 border bg-danger p-0 m-0">
+    <img id="mainImg"  src="/images/main_img_home2.jpg" alt="Home Image">
+  </div>
+  <!-- RIGHT LOGO -->
+  <div class="col-md-12 col-lg-4 ">
+    <div class="col border bg-success d-none d-lg-block" id="rightLogo">
+    <p>RIGHT LOGO</p>
+    </div>
+  <!-- SOCIAL -->
+  <div class="row">
+  <div class="col border col-lg d-flex align-items-center justify-content-end" id="socialHome">
+    <!-- SOCIAL MODULE -->
 
-        <!--MAIN SECTIONS (IMAGE/LOGO/FORM) -->
+<!-- INSTAGRAM -->
+    <a class="mr-2" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="#BDBDBD" id="socialIconHoverColor" d="M18 6.615v1.45c0 .34-.275.616-.616.616h-1.449c-.341 0-.615-.276-.615-.616v-1.45c0-.34.274-.615.615-.615h1.449c.341 0 .616.275.616.615zm-1.131 4.699c.033.225.054.453.054.686 0 2.72-2.204 4.923-4.922 4.923s-4.923-2.204-4.923-4.923c0-.233.021-.461.054-.686.031-.221.075-.437.134-.647h-1.266v6.719c0 .339.275.614.616.614h10.769c.34 0 .615-.275.615-.615v-6.719h-1.265c.058.211.102.427.134.648zm-4.869 3.763c1.699 0 3.078-1.378 3.078-3.077s-1.379-3.077-3.078-3.077-3.077 1.377-3.077 3.077 1.378 3.077 3.077 3.077zm12-15.077v24h-24v-24h24zm-4 5.846c0-1.019-.826-1.846-1.846-1.846h-12.308c-1.019 0-1.846.827-1.846 1.846v12.307c0 1.02.827 1.847 1.846 1.847h12.309c1.019 0 1.845-.827 1.845-1.847v-12.307z"/></svg></a>
 
-        <div class="container m-0 col-10 ">
-          <div class="row ">
-            <div class="col-lg-9 m-0 p-0" >
-              <img id="homeImg"  src="/images/main_img_home2.jpg" alt="Home Image">  </div>
+<!-- TWITTER -->
+    <a class="mr-2" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="#BDBDBD" id="socialIconHoverColor" d="M0 0v24h24v-24h-24zm18.862 9.237c.208 4.617-3.235 9.765-9.33 9.765-1.854 0-3.579-.543-5.032-1.475 1.742.205 3.48-.278 4.86-1.359-1.437-.027-2.649-.976-3.066-2.28.515.098 1.021.069 1.482-.056-1.579-.317-2.668-1.739-2.633-3.26.442.246.949.394 1.486.411-1.461-.977-1.875-2.907-1.016-4.383 1.619 1.986 4.038 3.293 6.766 3.43-.479-2.053 1.079-4.03 3.198-4.03.944 0 1.797.398 2.396 1.037.748-.147 1.451-.42 2.085-.796-.245.767-.766 1.41-1.443 1.816.664-.08 1.297-.256 1.885-.517-.44.656-.997 1.234-1.638 1.697z"/></svg></a>
 
-              <!-- RIGHT LOGO MODULE -->
-              <div class=" p-0 col mr-3">
-                <div id="logoSection">
-                  <div  id="logoImg" class="col d-lg-block pt-5 pl-5  ">   <img src="/images/logo.png" width="200" alt="logo"> </div>
-
-                  <!-- FORM MODULE -->
-                  <div id="formSection" class="h2 text-center d-lg-block mt-3 p-0"> <p> </p> </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </container>
+<!-- YOUTUBE -->
+    <a class="mr-2" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="#BDBDBD" id="socialIconHoverColor" d="M10 9.333l5.333 2.662-5.333 2.672v-5.334zm14-9.333v24h-24v-24h24zm-4 12c-.02-4.123-.323-5.7-2.923-5.877-2.403-.164-7.754-.163-10.153 0-2.598.177-2.904 1.747-2.924 5.877.02 4.123.323 5.7 2.923 5.877 2.399.163 7.75.164 10.153 0 2.598-.177 2.904-1.747 2.924-5.877z"/></svg></a>
 
 
-      <!--FOOTER MODULE -->
+<!-- FACEBOOK -->
+    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="#BDBDBD" id="socialIconHoverColor" d="M0 0v24h24v-24h-24zm16 7h-1.923c-.616 0-1.077.252-1.077.889v1.111h3l-.239 3h-2.761v8h-3v-8h-2v-3h2v-1.923c0-2.022 1.064-3.077 3.461-3.077h2.539v3z"/></svg></a>
+  </div>
+    </div>
+</div>
+</div>
 
-      <footer >
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 
-        <div id="footerSection" class=" navbar row mt-2 fixed-bottom">
-          <div class=" navbar text-right text-muted col-10 ">Pra Você &copy; All rights reserved </div>
-
-          <div class="row col ml-auto navbar ">
-            <div class=" ml-auto mr-3 ">
-              <!-- SOCIAL MODULE -->
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="#BDBDBD" id="socialIconHoverColor" d="M18 6.615v1.45c0 .34-.275.616-.616.616h-1.449c-.341 0-.615-.276-.615-.616v-1.45c0-.34.274-.615.615-.615h1.449c.341 0 .616.275.616.615zm-1.131 4.699c.033.225.054.453.054.686 0 2.72-2.204 4.923-4.922 4.923s-4.923-2.204-4.923-4.923c0-.233.021-.461.054-.686.031-.221.075-.437.134-.647h-1.266v6.719c0 .339.275.614.616.614h10.769c.34 0 .615-.275.615-.615v-6.719h-1.265c.058.211.102.427.134.648zm-4.869 3.763c1.699 0 3.078-1.378 3.078-3.077s-1.379-3.077-3.078-3.077-3.077 1.377-3.077 3.077 1.378 3.077 3.077 3.077zm12-15.077v24h-24v-24h24zm-4 5.846c0-1.019-.826-1.846-1.846-1.846h-12.308c-1.019 0-1.846.827-1.846 1.846v12.307c0 1.02.827 1.847 1.846 1.847h12.309c1.019 0 1.845-.827 1.845-1.847v-12.307z"/></svg>
-
-
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="#BDBDBD" id="socialIconHoverColor" d="M0 0v24h24v-24h-24zm18.862 9.237c.208 4.617-3.235 9.765-9.33 9.765-1.854 0-3.579-.543-5.032-1.475 1.742.205 3.48-.278 4.86-1.359-1.437-.027-2.649-.976-3.066-2.28.515.098 1.021.069 1.482-.056-1.579-.317-2.668-1.739-2.633-3.26.442.246.949.394 1.486.411-1.461-.977-1.875-2.907-1.016-4.383 1.619 1.986 4.038 3.293 6.766 3.43-.479-2.053 1.079-4.03 3.198-4.03.944 0 1.797.398 2.396 1.037.748-.147 1.451-.42 2.085-.796-.245.767-.766 1.41-1.443 1.816.664-.08 1.297-.256 1.885-.517-.44.656-.997 1.234-1.638 1.697z"/></svg>
-
-
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="#BDBDBD" id="socialIconHoverColor" d="M10 9.333l5.333 2.662-5.333 2.672v-5.334zm14-9.333v24h-24v-24h24zm-4 12c-.02-4.123-.323-5.7-2.923-5.877-2.403-.164-7.754-.163-10.153 0-2.598.177-2.904 1.747-2.924 5.877.02 4.123.323 5.7 2.923 5.877 2.399.163 7.75.164 10.153 0 2.598-.177 2.904-1.747 2.924-5.877z"/></svg>
-
-
-
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="#BDBDBD" id="socialIconHoverColor" d="M0 0v24h24v-24h-24zm16 7h-1.923c-.616 0-1.077.252-1.077.889v1.111h3l-.239 3h-2.761v8h-3v-8h-2v-3h2v-1.923c0-2.022 1.064-3.077 3.461-3.077h2.539v3z"/></svg>
-            </div>
-          </div>
-        </div>
-
-      </footer>
-
-
-
-
-      <script src="js/jquery.min.js"></script>
-      <script src="js/popper.min.js"></script>
-      <script src="js/bootstrap.min.js"></script>
-
-    </body>
-    </html>
+</body>
+</html>
